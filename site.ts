@@ -17,7 +17,7 @@ export default {
   trailingSlash: false, // default
   titleSeparator: '|', // default
   nav: [
-    { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Главная', link: '/', type: 'primary', icon: 'i-mdi-home' },
     { text: 'Adopt Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',

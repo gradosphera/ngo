@@ -18,7 +18,7 @@
               <h4
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
-                Adopt A Pet
+                Adopt A Pets
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">
                 Thousands of homeless dogs, one act of kindness

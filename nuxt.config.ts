@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   extends: [
     './app-nuxt-tailwindcss-layer', // NavBar and Footer components
   ],
+
   // ssr: false,
   // devtools: { enabled: false }, // enabled by default, disable when using standalone Vue devtools when using standalone Vue devtools
 
@@ -241,10 +242,12 @@ export default defineNuxtConfig({
     trailingSlash,
     titleSeparator,
   },
+
   robots: {
     // https://nuxtseo.com/robots/api/config#blocknonseobots
     blockNonSeoBots: true,
   },
+
   sitemap: {
     // https://nuxtseo.com/sitemap/guides/i18n#debugging-hreflang
     // Open {{site.url}}/sitemap.xml
@@ -264,6 +267,7 @@ export default defineNuxtConfig({
     // Remove strictNuxtContentPaths if using nuxt-content in documentDriven mode
     strictNuxtContentPaths: true,
   },
+
   ogImage: {
     // OG images and nuxtseo features can be previewed with nuxt-devtools during development. OG images can also be viewed using URL in this form - `/__og-image__/image/<path>/og.<extension>. For eg, https://happy-paws-with-nuxt-tailwindcss.netlify.app/__og-image__/image/og.png
     // fonts: ['Inter:400', 'Inter:700'],
@@ -273,6 +277,7 @@ export default defineNuxtConfig({
     // disable at a global level
     // runtimeCacheStorage: false,
   },
+
   linkChecker: {
     enabled: false,
     excludeLinks: ['https://twitter.com/vuedesigner'],
@@ -328,4 +333,6 @@ export default defineNuxtConfig({
       // ],
     },
   },
+
+  compatibilityDate: '2024-09-30',
 })
