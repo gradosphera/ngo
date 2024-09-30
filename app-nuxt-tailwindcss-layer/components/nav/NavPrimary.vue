@@ -29,11 +29,11 @@
     <BaseButton
       class="ml-3"
       target="_blank"
-      to="https://vuedesigner.com"
+      to="https://t.me/ecoplaybot/play"
       size="xl"
       color="secondary"
     >
-      <span class="pl-2">Try Now</span>
+      <span class="pl-2">EcoPlay</span>
       <template #trailing>
         <BaseIcon name="i-mdi-pine-tree" height="24px" />
       </template>
