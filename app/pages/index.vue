@@ -5,7 +5,7 @@
     // layout: 'default',
     // name: 'index',
     // alias: 'index',
-    title: 'Home',
+    title: 'Главная',
     description: 'Thousands of homeless pets, one act of kindness!',
     navOrder: 1,
     type: 'primary',
